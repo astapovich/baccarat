@@ -1,0 +1,5 @@
+.global-theme {
+          --button-font-size-medium: 16px;
+  --button-size-medium: 32px;
+  --button-background-color-primary-hover: #6475f7;
+      }
