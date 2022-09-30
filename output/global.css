@@ -72,6 +72,7 @@
   --toast-primary-background-body: linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%);
   --toast-secondary-background-body: linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%);
   --input-primary-background-default: linear-gradient(360deg, #121011 0%, #343434 100%);
+  --input-primary-border-default: linear-gradient(180deg, #434343 0%, #343434 100%);
   --input-primary-border-hover: linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%);
   --input-primary-border-filled: linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%);
   --input-primary-border-error: linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%);
@@ -79,10 +80,9 @@
   --input-primary-text-filled: #e7d5b9;
   --input-primary-text-disabled: #434343;
   --input-primary-text-error: #ED1A4C;
-  --input-primarya-border-default: linear-gradient(180deg, #434343 0%, #343434 100%);
   --dropdown-primary-background-default: #343434;
-  --dropdown-primary-background-active: #e7d5b999;
-  --dropdown-primary-background-hover: #e7d5b999;
+  --dropdown-primary-background-active: #12101199;
+  --dropdown-primary-background-hover: #12101199;
   --dropdown-primary-text-active: #e7d5b9;
   --dropdown-primary-text-disabled: #e7d5b966;
   --dropdown-primary-text-default: #e7d5b9;

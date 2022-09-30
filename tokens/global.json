@@ -485,6 +485,10 @@
         }
       },
       "border": {
+        "default": {
+          "value": "linear-gradient(180deg, #434343 0%, #343434 100%)",
+          "type": "color"
+        },
         "hover": {
           "value": "linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%)",
           "type": "color"
@@ -516,14 +520,6 @@
           "type": "color"
         }
       }
-    },
-    "primarya": {
-      "border": {
-        "default": {
-          "value": "linear-gradient(180deg, #434343 0%, #343434 100%)",
-          "type": "color"
-        }
-      }
     }
   },
   "dropdown": {
@@ -534,11 +530,11 @@
           "type": "color"
         },
         "active": {
-          "value": "#e7d5b999",
+          "value": "#12101199",
           "type": "color"
         },
         "hover": {
-          "value": "#e7d5b999",
+          "value": "#12101199",
           "type": "color"
         }
       },
