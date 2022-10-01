@@ -1,4 +1,5 @@
 const StyleDictionaryPackage = require('style-dictionary');
+const tinycolor = require("tinycolor2");
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -75,7 +76,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/hls", "shadow/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
