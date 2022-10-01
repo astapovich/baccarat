@@ -40,7 +40,7 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'chroma/css',
+  name: 'chromas/css',
   type: 'value',
     matcher: function(prop) {
     return prop.type === 'color';
