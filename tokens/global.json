@@ -1,6 +1,6 @@
 {
   "black": {
-    "value": "#121010",
+    "value": "#121011",
     "type": "color",
     "alias": "isAlias"
   },
@@ -179,17 +179,17 @@
         },
         "circle": {
           "default": {
-            "value": "#121010",
+            "value": "#121011",
             "type": "color"
           },
           "active": {
-            "value": "linear-gradient(360deg, #121010 0%, #343434 100%)",
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
             "type": "color"
           }
         },
         "outline": {
           "default": {
-            "value": "linear-gradient(360deg,#121010 0%, #343434 115%)",
+            "value": "linear-gradient(360deg,#121011 0%, #343434 115%)",
             "type": "color"
           },
           "hover": {
@@ -230,17 +230,17 @@
       },
       "base": {
         "primary": {
-          "value": "#121010",
+          "value": "#121011",
           "type": "color"
         },
         "additional": {
-          "value": "linear-gradient(180deg, #12101000 0%, #2b2a2b 100%)",
+          "value": "linear-gradient(180deg, #12101100 0%, #2b2a2b 100%)",
           "type": "color"
         }
       },
       "divider": {
         "secondary": {
-          "value": "linear-gradient(270deg, #121010 0%, #434343 50%, #121010 100%)",
+          "value": "linear-gradient(270deg, #121011 0%, #434343 50%, #121011 100%)",
           "type": "color"
         },
         "additional": {
@@ -269,13 +269,13 @@
       "radio": {
         "unchecked": {
           "default": {
-            "value": "linear-gradient(360deg, #121010 0%, #343434 100%)",
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
             "type": "color"
           }
         },
         "checked": {
           "default": {
-            "value": "linear-gradient(360deg, #121010 0%, #343434 100%)",
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
             "type": "color"
           }
         },
@@ -382,22 +382,22 @@
       },
       "modal": {
         "body": {
-          "value": "linear-gradient(180deg, #121010 40%, #34343433 100%)",
+          "value": "linear-gradient(180deg, #121011 40%, #34343433 100%)",
           "type": "color"
         },
         "header": {
-          "value": "linear-gradient(360deg, #121010 0%, #343434 100%)",
+          "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
           "type": "color"
         }
       },
       "toast": {
         "body": {
           "primary": {
-            "value": "linear-gradient(90deg, #12101000 0%, #121010cc 25%, #121010cc 65%, #12101000 100%)",
+            "value": "linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%)",
             "type": "color"
           },
           "secondary": {
-            "value": "linear-gradient(90deg, #12101000 0%, #121010cc 50%, #12101000 100%)",
+            "value": "linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%)",
             "type": "color"
           }
         }
@@ -405,7 +405,7 @@
       "input": {
         "primary": {
           "default": {
-            "value": "linear-gradient(360deg, #121010 0%, #343434 100%)",
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
             "type": "color"
           }
         }
@@ -417,11 +417,11 @@
             "type": "color"
           },
           "active": {
-            "value": "#12101099",
+            "value": "#12101199",
             "type": "color"
           },
           "hover": {
-            "value": "#12101099",
+            "value": "#12101199",
             "type": "color"
           }
         }
@@ -529,7 +529,7 @@
             "y": 2,
             "blur": 0,
             "spread": 0,
-            "color": "#12101066",
+            "color": "#12101166",
             "type": "dropShadow"
           },
           "type": "boxShadow"
