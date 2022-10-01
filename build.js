@@ -41,12 +41,12 @@ StyleDictionaryPackage.registerTransform({
   name: 'innershadow/css',
   type: 'value',
     matcher: function(prop) {
-    return prop.type === 'boxShadow' && prop.attributes.type === "innershadow";
+    return prop.attributes.type === "innershadow";
   },
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
     const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
-    return 'px' + `${x}px ${y}px ${blur}px ${spread}px ${color}`;
+    return 'inset' + `${x}px ${y}px ${blur}px ${spread}px ${color}`;
   }
 });
 
