@@ -86,7 +86,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "shadow/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "shadow/css", "innershadow/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
