@@ -164,6 +164,10 @@
     "background": {
       "button": {
         "solid": {
+          "default": {
+            "value": "linear-gradient(360deg, #343434 0%, #34343400 100%)",
+            "type": "color"
+          },
           "hover": {
             "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
             "type": "color"
@@ -512,16 +516,6 @@
             "value": "linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%)",
             "type": "color"
           }
-        }
-      }
-    }
-  },
-  "background": {
-    "button": {
-      "solid": {
-        "default": {
-          "value": "linear-gradient(360deg, #343434 0%, #34343400 100%)",
-          "type": "color"
         }
       }
     }

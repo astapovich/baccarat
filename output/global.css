@@ -15,6 +15,7 @@
   --color-text-dropdown-primary-ctive: #e7d5b9;
   --color-text-dropdown-primary-disabled: rgba(231, 213, 185, 0.4);
   --color-text-dropdown-primary-default: #e7d5b9;
+  --color-background-button-solid-default: #000000;
   --color-background-button-solid-hover: #000000;
   --color-background-button-solid-pressed: #000000;
   --color-background-button-circle-default: #121011;
@@ -83,7 +84,6 @@
   --color-border-input-primary-hover: #000000;
   --color-border-input-primary-filled: #000000;
   --color-border-input-primary-error: #000000;
-  --background-button-solid-default: linear-gradient(360deg, #343434 0%, #34343400 100%);
   --shadow-dropshadow-base-primary: 0px 2px 0px 0px #12101166;
   --shadow-innershadow-base-primary: 0px -1px 0px 0px #d4bb93;
       }
