@@ -46,7 +46,12 @@ StyleDictionaryPackage.registerFilter({
   }
 })
 
-
+StyleDictionaryPackage.registerFilter({
+  name: 'isColor',
+  matcher: function(prop) {
+    return (!(prop.attributes.category === "alias" || prop.alias)) && prop.type === 'color';
+  }
+})
 
 StyleDictionaryPackage.registerFilter({
   name: 'isShadow',
