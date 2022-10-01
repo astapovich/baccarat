@@ -67,6 +67,13 @@ StyleDictionaryPackage.registerFilter({
 })
 
 StyleDictionaryPackage.registerFilter({
+  name: 'isShadow',
+  matcher: function(prop) {
+    return (!(prop.attributes.category === "alias" || prop.alias)) && prop.type === 'boxShadow';
+  }
+})
+
+StyleDictionaryPackage.registerFilter({
   name: 'isComponent',
   matcher: function(prop) {
     return prop.attributes.category === 'component';
@@ -86,7 +93,7 @@ function getStyleDictionaryConfig(theme) {
         "files": [{
             "destination": `${theme}.css`,
             "format": "css/variables",
-            "filter": "isAlias",
+            "filter": "isShadow",
             "selector": `.${theme}-theme`
           }]
       }
