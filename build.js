@@ -44,7 +44,7 @@ StyleDictionaryPackage.registerTransform({
     return prop.attributes.type === "innershadow";
   },
   transformer: function(prop) {
-    return prop.value + 'px';
+    return 'inset ' + prop.value;
   }
 });
 
