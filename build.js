@@ -41,7 +41,7 @@ StyleDictionaryPackage.registerTransform({
   name: 'innershadow/css',
   type: 'value',
     matcher: function(prop) {
-    return prop.type === 'boxShadow' && prop.type === "innerShadow";
+    return prop.type === 'boxShadow' && prop.attributes.type === "innershadow";
   },
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
