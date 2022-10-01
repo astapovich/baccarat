@@ -24,6 +24,34 @@ StyleDictionaryPackage.registerTransform({
     }
     });
 
+const tinycolor = require('tinycolor2')
+
+StyleDictionary.registerTransform({
+  name: 'shadow/css',
+  type: 'value',
+  matcher: function(prop) {
+    return prop.attributes.category === 'shadow';
+  },
+  transformer: function(prop) {
+    // destructure shadow values from original token value
+    const {
+      x,
+      y,
+      blur,
+      spread,
+      color,
+      alpha
+    } = prop.original.value
+    
+    // convert hex code to rgba string
+    const shadowColor = tinycolor(color)
+    shadowColor.setAlpha(alpha)
+    shadowColor.toRgbString()
+    
+    return `${x}px ${y}px ${blur}px ${spread}px ${shadowColor}`
+  }
+});
+
 StyleDictionaryPackage.registerFilter({
   name: 'isAlias',
   matcher: function(prop) {
@@ -53,7 +81,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
