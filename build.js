@@ -26,25 +26,18 @@ StyleDictionaryPackage.registerTransform({
 
 
 StyleDictionaryPackage.registerTransform({
-  name: 'shadow/css',
+  name: 'shadow/spreadShadow',
   type: 'value',
-  matcher: function(prop) {
-    return prop.attributes.category === 'shadow' && prop.type === 'boxShadow';
+    matcher: function(prop) {
+    return prop.type === 'boxShadow';
   },
   transformer: function(prop) {
-    // destructure shadow values from original token value
-    const {
-      x,
-      y,
-      blur,
-      spread,
-      color
-    } = prop.original.value
-    
-    
-    return `${x}px ${y}px ${blur}px ${spread}px ${color}`
+    const shadow = Object.values(prop.value);
+    const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
+    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
   }
 });
+
 
 StyleDictionaryPackage.registerFilter({
   name: 'isAlias',
@@ -82,7 +75,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/spreadShadow"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
