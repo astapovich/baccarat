@@ -80,7 +80,7 @@ function getStyleDictionaryConfig(theme) {
         "files": [{
             "destination": `${theme}.css`,
             "format": "css/variables",
-            "filter": "isShadow",
+            "filter": "isAlias",
             "selector": `.${theme}-theme`
           }]
       }
