@@ -74,262 +74,418 @@
     "type": "color",
     "alias": "isAlias"
   },
-  "text": {
-    "primary": {
-      "value": "#e7d5b9",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "#e7d5b999",
-      "type": "color"
-    },
-    "tertiary": {
-      "value": "#434343",
-      "type": "color"
-    }
-  },
-  "button": {
-    "solid": {
-      "background": {
-        "default": {
-          "value": "linear-gradient(360deg, #343434 0%, #34343400 100%)",
-          "type": "color"
-        },
-        "hover": {
-          "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "linear-gradient(180deg, #1b191a 0%, #bb9370 100%)",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "linear-gradient(90deg, #34343400 0%, #434343 50%, #34343400 100%)",
-          "type": "color"
-        },
-        "hover": {
-          "value": "linear-gradient(90deg, #f1e6d200 0%, #f1e6d2 50%, #f1e6d200 100%)",
-          "type": "color"
-        }
-      },
-      "text": {
-        "disabled": {
-          "value": "#434343",
-          "type": "color"
-        },
-        "default": {
-          "value": "#e7d5b9",
-          "type": "color"
-        }
-      }
-    },
-    "circle": {
-      "background": {
-        "default": {
-          "value": "#121011",
-          "type": "color"
-        },
-        "active": {
-          "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "linear-gradient(270deg, #2b2a2b 0%, #434343 50%, #2b2a2b 100%)",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#f1e6d2",
-          "type": "color"
-        }
-      }
-    },
-    "outline": {
-      "background": {
-        "default": {
-          "value": "linear-gradient(360deg,#121011 0%, #343434 115%)",
-          "type": "color"
-        },
-        "hover": {
-          "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "linear-gradient(180deg, #1b191a 0%, #bb9370 100%)",
-          "type": "color"
-        },
-        "dissabled": {
-          "value": "linear-gradient(360deg, #1b191a 0%, #343434 100%)",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "linear-gradient(360deg,#f1e6d2 0%, #d4bb93 115%)",
-          "type": "color"
-        },
-        "dissabled": {
-          "value": "#434343",
-          "type": "color"
-        }
-      },
-      "text": {
-        "default": {
-          "value": "#e7d5b9",
-          "type": "color"
-        },
-        "dissabled": {
-          "value": "#434343",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "dropshadow": {
-    "primary": {
-      "value": {
-        "x": 0,
-        "y": 2,
-        "blur": 0,
-        "spread": 0,
-        "color": "#12101166",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    }
-  },
-  "innershadow": {
-    "primary": {
-      "value": {
-        "x": 0,
-        "y": -1,
-        "blur": 0,
-        "spread": 0,
-        "color": "#d4bb93",
-        "type": "innerShadow"
-      },
-      "type": "boxShadow"
-    }
-  },
-  "icon": {
-    "primary": {
-      "background": {
-        "default": {
-          "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "#434343",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "badge": {
-    "primary": {
-      "background": {
-        "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
-        "type": "color"
-      },
-      "text": {
-        "value": "#e7d5b9",
-        "type": "color"
-      }
-    },
-    "secondary": {
-      "background": {
-        "value": "linear-gradient(180deg, #34343400 0%, #343434 100%)",
-        "type": "color"
-      }
-    }
-  },
-  "background": {
-    "primary": {
-      "value": "#121011",
-      "type": "color"
-    },
-    "additional": {
-      "value": "linear-gradient(180deg, #12101100 0%, #2b2a2b 100%)",
-      "type": "color"
-    }
-  },
-  "divider": {
-    "secondary": {
-      "value": "linear-gradient(270deg, #121011 0%, #434343 50%, #121011 100%)",
-      "type": "color"
-    },
-    "additional": {
-      "value": "#343434",
-      "type": "color"
-    },
-    "primary": {
-      "value": "linear-gradient(270deg, #f1e6d200 35%, #f1e6d2 50%, #f1e6d200 65%)",
-      "type": "color"
-    },
-    "accent": {
-      "value": "linear-gradient(270deg, #f1e6d200 0%, #f1e6d2 50%, #f1e6d200 100%)",
-      "type": "color"
-    }
-  },
-  "timer": {
+  "color": {
     "text": {
-      "value": "#e7d5b9",
-      "type": "color"
-    },
-    "color": {
-      "default": {
-        "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
-        "type": "color"
-      },
-      "warning": {
-        "value": "linear-gradient(180deg, #ED1A4C 0%, #D00132 100%)",
-        "type": "color"
-      }
-    }
-  },
-  "radio": {
-    "unchecked": {
-      "background": {
-        "default": {
-          "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "#d4bb93",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#bb9370",
-          "type": "color"
-        },
-        "pressed": {
+      "base": {
+        "primary": {
           "value": "#e7d5b9",
           "type": "color"
         },
-        "disabled": {
+        "secondary": {
+          "value": "#e7d5b999",
+          "type": "color"
+        },
+        "tertiary": {
           "value": "#434343",
           "type": "color"
         }
-      }
-    },
-    "checked": {
-      "background": {
-        "default": {
-          "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
-          "type": "color"
+      },
+      "button": {
+        "solid": {
+          "disabled": {
+            "value": "#434343",
+            "type": "color"
+          },
+          "default": {
+            "value": "#e7d5b9",
+            "type": "color"
+          }
         },
-        "circle": {
+        "outline": {
           "default": {
             "value": "#e7d5b9",
             "type": "color"
           },
+          "dissabled": {
+            "value": "#434343",
+            "type": "color"
+          }
+        }
+      },
+      "badge": {
+        "primary": {
+          "value": "#e7d5b9",
+          "type": "color"
+        }
+      },
+      "timer": {
+        "primary": {
+          "value": "#e7d5b9",
+          "type": "color"
+        }
+      },
+      "input": {
+        "primary": {
+          "default": {
+            "value": "#e7d5b999",
+            "type": "color"
+          },
+          "filled": {
+            "value": "#e7d5b9",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#434343",
+            "type": "color"
+          },
+          "error": {
+            "value": "#ED1A4C",
+            "type": "color"
+          }
+        }
+      },
+      "dropdown": {
+        "primary": {
+          "ctive": {
+            "value": "#e7d5b9",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#e7d5b966",
+            "type": "color"
+          },
+          "default": {
+            "value": "#e7d5b9",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "background": {
+      "button": {
+        "solid": {
+          "default": {
+            "value": "linear-gradient(360deg, #343434 0%, #34343400 100%)",
+            "type": "color"
+          },
           "hover": {
+            "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "linear-gradient(180deg, #1b191a 0%, #bb9370 100%)",
+            "type": "color"
+          }
+        },
+        "circle": {
+          "default": {
+            "value": "#121011",
+            "type": "color"
+          },
+          "active": {
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "linear-gradient(360deg,#121011 0%, #343434 115%)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "linear-gradient(180deg, #1b191a 0%, #bb9370 100%)",
+            "type": "color"
+          },
+          "dissabled": {
+            "value": "linear-gradient(360deg, #1b191a 0%, #343434 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "primary": {
+          "default": {
+            "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#434343",
+            "type": "color"
+          }
+        }
+      },
+      "badge": {
+        "primary": {
+          "value": "linear-gradient(180deg, #34343400 0%, #bb9370 100%)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "linear-gradient(180deg, #34343400 0%, #343434 100%)",
+          "type": "color"
+        }
+      },
+      "base": {
+        "primary": {
+          "value": "#121011",
+          "type": "color"
+        },
+        "additional": {
+          "value": "linear-gradient(180deg, #12101100 0%, #2b2a2b 100%)",
+          "type": "color"
+        }
+      },
+      "divider": {
+        "secondary": {
+          "value": "linear-gradient(270deg, #121011 0%, #434343 50%, #121011 100%)",
+          "type": "color"
+        },
+        "additional": {
+          "value": "#343434",
+          "type": "color"
+        },
+        "primary": {
+          "value": "linear-gradient(270deg, #f1e6d200 35%, #f1e6d2 50%, #f1e6d200 65%)",
+          "type": "color"
+        },
+        "accent": {
+          "value": "linear-gradient(270deg, #f1e6d200 0%, #f1e6d2 50%, #f1e6d200 100%)",
+          "type": "color"
+        }
+      },
+      "timer": {
+        "default": {
+          "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
+          "type": "color"
+        },
+        "warning": {
+          "value": "linear-gradient(180deg, #ED1A4C 0%, #D00132 100%)",
+          "type": "color"
+        }
+      },
+      "radio": {
+        "unchecked": {
+          "default": {
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
+            "type": "color"
+          }
+        },
+        "checked": {
+          "default": {
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
+            "type": "color"
+          }
+        },
+        "circle": {
+          "checked": {
+            "default": {
+              "value": "#e7d5b9",
+              "type": "color"
+            },
+            "hover": {
+              "value": "#d4bb93",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#e7d5b9",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "#434343",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "toggle": {
+        "unchecked": {
+          "default": {
+            "value": "#434343",
+            "type": "color"
+          }
+        },
+        "circle": {
+          "unchecked": {
+            "default": {
+              "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "linear-gradient(180deg, #fff7eb 0%, #bb9370 100%)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "linear-gradient(360deg, #434343 0%, #343434 100%)",
+              "type": "color"
+            }
+          },
+          "checked": {
+            "default": {
+              "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "linear-gradient(180deg, #fff7eb 0%, #bb9370 100%)",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%)",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "linear-gradient(360deg, #434343 0%, #343434 100%)",
+              "type": "color"
+            }
+          }
+        },
+        "checked": {
+          "default": {
             "value": "#d4bb93",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#434343",
+            "type": "color"
+          }
+        }
+      },
+      "slider": {
+        "default": {
+          "value": "#434343",
+          "type": "color"
+        },
+        "active": {
+          "value": "#d4bb93",
+          "type": "color"
+        },
+        "handle": {
+          "default": {
+            "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "linear-gradient(180deg, #fff7eb 0%, #bb9370 100%)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "modal": {
+        "body": {
+          "value": "linear-gradient(180deg, #121011 40%, #34343433 100%)",
+          "type": "color"
+        },
+        "header": {
+          "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
+          "type": "color"
+        }
+      },
+      "toast": {
+        "body": {
+          "primary": {
+            "value": "linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%)",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "input": {
+        "primary": {
+          "default": {
+            "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "dropdown": {
+        "primary": {
+          "default": {
+            "value": "#343434",
+            "type": "color"
+          },
+          "active": {
+            "value": "#12101199",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#12101199",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "border": {
+      "button": {
+        "solid": {
+          "default": {
+            "value": "linear-gradient(90deg, #34343400 0%, #434343 50%, #34343400 100%)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "linear-gradient(90deg, #f1e6d200 0%, #f1e6d2 50%, #f1e6d200 100%)",
+            "type": "color"
+          }
+        },
+        "circle": {
+          "default": {
+            "value": "linear-gradient(270deg, #2b2a2b 0%, #434343 50%, #2b2a2b 100%)",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#f1e6d2",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "linear-gradient(360deg,#f1e6d2 0%, #d4bb93 115%)",
+            "type": "color"
+          },
+          "dissabled": {
+            "value": "#434343",
+            "type": "color"
+          }
+        }
+      },
+      "radio": {
+        "unchecked": {
+          "default": {
+            "value": "#d4bb93",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#bb9370",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#e7d5b9",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "#434343",
+            "type": "color"
+          }
+        },
+        "checked": {
+          "default": {
+            "value": "#d4bb93",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#bb9370",
             "type": "color"
           },
           "pressed": {
@@ -342,214 +498,56 @@
           }
         }
       },
-      "border": {
-        "default": {
-          "value": "#d4bb93",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#bb9370",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "#e7d5b9",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "#434343",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "toggle": {
-    "unchecked": {
-      "background": {
-        "default": {
-          "value": "#434343",
-          "type": "color"
-        },
-        "circle": {
+      "input": {
+        "primary": {
           "default": {
-            "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
+            "value": "linear-gradient(180deg, #434343 0%, #343434 100%)",
             "type": "color"
           },
           "hover": {
-            "value": "linear-gradient(180deg, #fff7eb 0%, #bb9370 100%)",
+            "value": "linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%)",
             "type": "color"
           },
-          "pressed": {
-            "value": "linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%)",
+          "filled": {
+            "value": "linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%)",
             "type": "color"
           },
-          "disabled": {
-            "value": "linear-gradient(360deg, #434343 0%, #343434 100%)",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "checked": {
-      "background": {
-        "default": {
-          "value": "#d4bb93",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "#434343",
-          "type": "color"
-        },
-        "circle": {
-          "default": {
-            "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
-            "type": "color"
-          },
-          "hover": {
-            "value": "linear-gradient(180deg, #fff7eb 0%, #bb9370 100%)",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%)",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "linear-gradient(360deg, #434343 0%, #343434 100%)",
+          "error": {
+            "value": "linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%)",
             "type": "color"
           }
         }
       }
     }
   },
-  "slider": {
-    "background": {
-      "default": {
-        "value": "#434343",
-        "type": "color"
-      },
-      "active": {
-        "value": "#d4bb93",
-        "type": "color"
-      },
-      "handle": {
-        "default": {
-          "value": "linear-gradient(180deg, #fff7eb 0%, #d4bb93 100%)",
-          "type": "color"
-        },
-        "hover": {
-          "value": "linear-gradient(180deg, #fff7eb 0%, #bb9370 100%)",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%)",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "modal": {
-    "background": {
-      "body": {
-        "value": "linear-gradient(180deg, #121011 40%, #34343433 100%)",
-        "type": "color"
-      },
-      "header": {
-        "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
-        "type": "color"
-      }
-    }
-  },
-  "toast": {
-    "primary": {
-      "background": {
-        "body": {
-          "value": "linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%)",
-          "type": "color"
+  "shadow": {
+    "dropshadow": {
+      "base": {
+        "primary": {
+          "value": {
+            "x": 0,
+            "y": 2,
+            "blur": 0,
+            "spread": 0,
+            "color": "#12101166",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     },
-    "secondary": {
-      "background": {
-        "body": {
-          "value": "linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%)",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "input": {
-    "primary": {
-      "background": {
-        "default": {
-          "value": "linear-gradient(360deg, #121011 0%, #343434 100%)",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "linear-gradient(180deg, #434343 0%, #343434 100%)",
-          "type": "color"
-        },
-        "hover": {
-          "value": "linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%)",
-          "type": "color"
-        },
-        "filled": {
-          "value": "linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%)",
-          "type": "color"
-        },
-        "error": {
-          "value": "linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%)",
-          "type": "color"
-        }
-      },
-      "text": {
-        "default": {
-          "value": "#e7d5b999",
-          "type": "color"
-        },
-        "filled": {
-          "value": "#e7d5b9",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "#434343",
-          "type": "color"
-        },
-        "error": {
-          "value": "#ED1A4C",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "dropdown": {
-    "primary": {
-      "background": {
-        "default": {
-          "value": "#343434",
-          "type": "color"
-        },
-        "active": {
-          "value": "#12101199",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#12101199",
-          "type": "color"
-        }
-      },
-      "text": {
-        "active": {
-          "value": "#e7d5b9",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "#e7d5b966",
-          "type": "color"
-        },
-        "default": {
-          "value": "#e7d5b9",
-          "type": "color"
+    "innershadow": {
+      "base": {
+        "primary": {
+          "value": {
+            "x": 0,
+            "y": -1,
+            "blur": 0,
+            "spread": 0,
+            "color": "#d4bb93",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }
