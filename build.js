@@ -1,6 +1,4 @@
 const StyleDictionaryPackage = require('style-dictionary');
-const tinycolor = require("tinycolor2");
-
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -36,10 +34,7 @@ StyleDictionaryPackage.registerTransform({
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
     const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
-    const shadowColor = tinycolor(color)
-    shadowColor.setAlpha(alpha)
-    shadowColor.toRgbString();
-    return `${x}px ${y}px ${blur}px ${spread}px ${shadowColor}`;
+    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
   }
 });
 
