@@ -1,5 +1,4 @@
 const StyleDictionaryPackage = require('style-dictionary');
-const chroma = require('chroma-js');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -36,17 +35,6 @@ StyleDictionaryPackage.registerTransform({
     const shadow = Object.values(prop.value);
     const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
     return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
-  }
-});
-
-StyleDictionaryPackage.registerTransform({
-  name: 'chromas/css',
-  type: 'value',
-    matcher: function(prop) {
-    return prop.type === 'color';
-  },
-  transformer:function(prop) {
-      return chroma(prop.value).hsl();
   }
 });
 
