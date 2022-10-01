@@ -85,5 +85,5 @@
   --color-border-input-primary-filled: linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%);
   --color-border-input-primary-error: linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%);
   --shadow-dropshadow-base-primary: 0px 2px 0px 0px #12101166;
-  --shadow-innershadow-base-primary: inset 0px ppx xpx  px -;
+  --shadow-innershadow-base-primary: px0px ppx xpx  px -;
       }
