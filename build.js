@@ -38,7 +38,7 @@ StyleDictionaryPackage.registerTransform({
     const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
     const shadowColor = tinycolor(color)
     shadowColor.setAlpha(alpha)
-    shadowColor.toRgbString()
+    shadowColor.toRgbString();
     return `${x}px ${y}px ${blur}px ${spread}px ${shadowColor}`;
   }
 });
@@ -80,7 +80,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/rgb", "shadow/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
