@@ -516,11 +516,13 @@
       }
     }
   },
-  "button": {
-    "solid": {
-      "default": {
-        "value": "linear-gradient(360deg, #343434 0%, #34343400 100%)",
-        "type": "color"
+  "background": {
+    "button": {
+      "solid": {
+        "default": {
+          "value": "linear-gradient(360deg, #343434 0%, #34343400 100%)",
+          "type": "color"
+        }
       }
     }
   },

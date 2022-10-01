@@ -83,7 +83,7 @@
   --color-border-input-primary-hover: #000000;
   --color-border-input-primary-filled: #000000;
   --color-border-input-primary-error: #000000;
-  --button-solid-default: linear-gradient(360deg, #343434 0%, #34343400 100%);
+  --background-button-solid-default: linear-gradient(360deg, #343434 0%, #34343400 100%);
   --shadow-dropshadow-base-primary: 0px 2px 0px 0px #12101166;
   --shadow-innershadow-base-primary: 0px -1px 0px 0px #d4bb93;
       }
