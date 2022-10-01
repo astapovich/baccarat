@@ -24,7 +24,6 @@ StyleDictionaryPackage.registerTransform({
     }
     });
 
-
 StyleDictionaryPackage.registerTransform({
   name: 'shadow/css',
   type: 'value',
@@ -38,6 +37,18 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'innershadow/css',
+  type: 'value',
+    matcher: function(prop) {
+    return prop.type === 'boxShadow' && prop.type === "innerShadow";
+  },
+  transformer: function(prop) {
+    const shadow = Object.values(prop.value);
+    const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
+    return `inset ${x}px ${y}px ${blur}px ${spread}px ${color}`;
+  }
+});
 
 StyleDictionaryPackage.registerFilter({
   name: 'isAlias',
