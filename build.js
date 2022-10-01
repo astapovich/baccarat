@@ -45,7 +45,9 @@ StyleDictionaryPackage.registerTransform({
     matcher: function(prop) {
     return prop.type === 'color';
   },
-  transformer: (prop) => chroma(prop.value).hsl()
+  transformer:function(prop) {
+      return chroma(prop.value).hsl();
+  }
 });
 
 
