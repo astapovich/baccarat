@@ -24,22 +24,17 @@ StyleDictionaryPackage.registerTransform({
     }
     });
 
-const tinycolor = require('tinycolor2')
 
 StyleDictionaryPackage.registerTransform({
-  name: 'shadow/spreadShadow',
+  name: 'shadow/css',
   type: 'value',
     matcher: function(prop) {
     return prop.type === 'boxShadow';
   },
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
-    const [x, y, blur, spread, color, alpha] = shadow.map((s) => s.toString());
-    // convert hex code to rgba string
-    const shadowColor = tinycolor(color)
-    shadowColor.setAlpha(alpha)
-    shadowColor.toRgbString()
-    return `${x}px ${y}px ${blur}px ${spread}px ${shadowColor}`;
+    const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
+    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
   }
 });
 
@@ -80,7 +75,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/spreadShadow"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "shadow/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
