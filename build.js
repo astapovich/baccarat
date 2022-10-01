@@ -26,7 +26,7 @@ StyleDictionaryPackage.registerTransform({
 
 const tinycolor = require('tinycolor2')
 
-StyleDictionary.registerTransform({
+StyleDictionaryPackage.registerTransform({
   name: 'shadow/css',
   type: 'value',
   matcher: function(prop) {
