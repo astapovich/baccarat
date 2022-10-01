@@ -24,13 +24,12 @@ StyleDictionaryPackage.registerTransform({
     }
     });
 
-const tinycolor = require('tinycolor2')
 
 StyleDictionaryPackage.registerTransform({
   name: 'shadow/css',
   type: 'value',
   matcher: function(prop) {
-    return prop.attributes.category === 'shadow' && prop.type === 'dropShadow';
+    return prop.attributes.category === 'shadow' && prop.type === 'boxShadow';
   },
   transformer: function(prop) {
     // destructure shadow values from original token value
@@ -39,16 +38,11 @@ StyleDictionaryPackage.registerTransform({
       y,
       blur,
       spread,
-      color,
-      alpha
+      color
     } = prop.original.value
     
-    // convert hex code to rgba string
-    const shadowColor = tinycolor(color)
-    shadowColor.setAlpha(alpha)
-    shadowColor.toRgbString()
     
-    return `${x}px ${y}px ${blur}px ${spread}px ${shadowColor}`
+    return `${x}px ${y}px ${blur}px ${spread}px ${color}`
   }
 });
 
