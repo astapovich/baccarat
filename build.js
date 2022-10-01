@@ -30,7 +30,7 @@ StyleDictionaryPackage.registerTransform({
   name: 'shadow/css',
   type: 'value',
   matcher: function(prop) {
-    return prop.attributes.category === 'shadow' && prop.type === 'boxShadow';
+    return prop.attributes.category === 'shadow' && prop.type === 'dropShadow';
   },
   transformer: function(prop) {
     // destructure shadow values from original token value
