@@ -34,7 +34,7 @@ StyleDictionaryPackage.registerTransform({
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
     const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
-      if (x.toString === 0) {return `${x} ${y} ${blur} ${spread} ${color}`;}
+      if (`${x}` === 0) {return `${x} ${y} ${blur} ${spread} ${color}`;}
       else {return `${x}px ${y}px ${blur}px ${spread}px ${color}`;}
   }
 });
