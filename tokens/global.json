@@ -608,12 +608,12 @@
       }
     },
     "spacing": {
-      "5": {
-        "value": 5,
+      "1": {
+        "value": 1,
         "type": "spacing"
       },
-      "10": {
-        "value": 10,
+      "3": {
+        "value": 3,
         "type": "spacing"
       },
       "none": {
@@ -629,9 +629,35 @@
             "type": "lineHeights"
           }
         },
+        "18": {
+          "desktop": {
+            "value": 28,
+            "type": "lineHeights"
+          }
+        },
+        "24": {
+          "desktop": {
+            "value": 36,
+            "type": "lineHeights"
+          }
+        },
         "40": {
           "desktop": {
             "value": 60,
+            "type": "lineHeights"
+          }
+        }
+      },
+      "body": {
+        "12": {
+          "desktop": {
+            "value": 14,
+            "type": "lineHeights"
+          }
+        },
+        "14": {
+          "desktop": {
+            "value": 18,
             "type": "lineHeights"
           }
         }

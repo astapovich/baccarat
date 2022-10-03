@@ -96,9 +96,13 @@
   --font-weight-400: 400;
   --font-case-uppercase: uppercase;
   --font-case-none: none;
-  --font-spacing-5: 5px;
-  --font-spacing-10: 10px;
+  --font-spacing-1: 1px;
+  --font-spacing-3: 3px;
   --font-spacing-none: 0px;
   --font-lineheight-header-16-desktop: 24px;
+  --font-lineheight-header-18-desktop: 28px;
+  --font-lineheight-header-24-desktop: 36px;
   --font-lineheight-header-40-desktop: 60px;
+  --font-lineheight-body-12-desktop: 14px;
+  --font-lineheight-body-14-desktop: 18px;
       }
