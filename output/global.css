@@ -84,8 +84,8 @@
   --color-border-input-primary-hover: linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%);
   --color-border-input-primary-filled: linear-gradient(180deg, #f1e6d2 0%, #d4bb93 100%);
   --color-border-input-primary-error: linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%);
-  --shadow-dropshadow-primary: undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined;
-  --shadow-innershadow-primary: undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined, undefinedpx undefinedpx undefinedpx undefined;
+  --shadow-dropshadow-primary: 0px 2px 0px 0px #12101166;
+  --shadow-innershadow-primary: inset 0px -1px 0px 0px #d4bb93;
   --font-family-primary: Goldman;
   --font-size-header-16-desktop: 16px;
   --font-size-header-18-desktop: 18px;
