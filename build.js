@@ -55,7 +55,7 @@ StyleDictionaryPackage.registerTransform({
     return prop.type === "color";
   },
   transformer: function(prop) {
-    var color = Color(prop.value);
+    var color = prop.value;
       if (color.getAlpha() === 1) {
           const rgb = color.toRgb();
           return `rgb(${rgb.r} ${rgb.g} ${rgb.b})`;
