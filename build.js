@@ -33,20 +33,12 @@ StyleDictionaryPackage.registerTransform({
   },
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
-    const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
-      if (shadow.x === 0) {return `${x} ${y} ${blur} ${spread} ${color}`;}
-      else {return `${x}px ${y}px ${blur}px ${spread}px ${color}`;}
-  }
-});
-
-StyleDictionaryPackage.registerTransform({
-  name: 'innershadow/css',
-  type: 'value',
-    matcher: function(prop) {
-    return prop.attributes.type === "innershadow";
-  },
-  transformer: function(prop) {
-    return 'inset ' + prop.value;
+     const value = shadow.map((s) => {
+      const { x, y, blur, color, type } = s;
+      // support inset shadows as well
+      return `${type === 'innerShadow' ? 'inset ' : ''}${x}px ${y}px ${blur}px ${color}`;
+    });
+      return value.join(', ');
   }
 });
 
@@ -86,7 +78,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "shadow/css", "innershadow/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "shadow/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
