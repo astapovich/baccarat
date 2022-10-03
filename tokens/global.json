@@ -76,19 +76,17 @@
   },
   "color": {
     "text": {
-      "base": {
-        "primary": {
-          "value": "#e7d5b9",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "#e7d5b999",
-          "type": "color"
-        },
-        "tertiary": {
-          "value": "#434343",
-          "type": "color"
-        }
+      "primary": {
+        "value": "#e7d5b9",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#e7d5b999",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "#434343",
+        "type": "color"
       },
       "button": {
         "solid": {
@@ -228,15 +226,13 @@
           "type": "color"
         }
       },
-      "base": {
-        "primary": {
-          "value": "#121011",
-          "type": "color"
-        },
-        "additional": {
-          "value": "linear-gradient(180deg, #12101100 0%, #2b2a2b 100%)",
-          "type": "color"
-        }
+      "primary": {
+        "value": "#121011",
+        "type": "color"
+      },
+      "additional": {
+        "value": "linear-gradient(180deg, #12101100 0%, #2b2a2b 100%)",
+        "type": "color"
       },
       "divider": {
         "secondary": {
@@ -391,15 +387,13 @@
         }
       },
       "toast": {
-        "body": {
-          "primary": {
-            "value": "linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%)",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%)",
-            "type": "color"
-          }
+        "primary": {
+          "value": "linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%)",
+          "type": "color"
         }
       },
       "input": {
@@ -522,33 +516,29 @@
   },
   "shadow": {
     "dropshadow": {
-      "base": {
-        "primary": {
-          "value": {
-            "x": 0,
-            "y": 2,
-            "blur": 0,
-            "spread": 0,
-            "color": "#12101166",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
+      "primary": {
+        "value": {
+          "x": 0,
+          "y": 2,
+          "blur": 0,
+          "spread": 0,
+          "color": "#12101166",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       }
     },
     "innershadow": {
-      "base": {
-        "primary": {
-          "value": {
-            "x": 0,
-            "y": -1,
-            "blur": 0,
-            "spread": 0,
-            "color": "#d4bb93",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        }
+      "primary": {
+        "value": {
+          "x": 0,
+          "y": -1,
+          "blur": 0,
+          "spread": 0,
+          "color": "#d4bb93",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
       }
     }
   }
