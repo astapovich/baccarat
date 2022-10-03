@@ -144,7 +144,7 @@
       },
       "dropdown": {
         "primary": {
-          "ctive": {
+          "active": {
             "value": "#e7d5b9",
             "type": "color"
           },
