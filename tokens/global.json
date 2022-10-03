@@ -541,5 +541,101 @@
         "type": "boxShadow"
       }
     }
+  },
+  "font": {
+    "family": {
+      "primary": {
+        "value": "Goldman",
+        "type": "fontFamilies"
+      }
+    },
+    "size": {
+      "header": {
+        "16": {
+          "desktop": {
+            "value": 16,
+            "type": "fontSizes"
+          }
+        },
+        "18": {
+          "desktop": {
+            "value": 18,
+            "type": "fontSizes"
+          }
+        },
+        "24": {
+          "desktop": {
+            "value": 24,
+            "type": "fontSizes"
+          }
+        },
+        "40": {
+          "desktop": {
+            "value": 40,
+            "type": "fontSizes"
+          }
+        }
+      },
+      "body": {
+        "12": {
+          "desctop": {
+            "value": 12,
+            "type": "fontSizes"
+          }
+        },
+        "14": {
+          "desktop": {
+            "value": 14,
+            "type": "fontSizes"
+          }
+        }
+      }
+    },
+    "weight": {
+      "400": {
+        "value": 400,
+        "type": "fontWeights"
+      }
+    },
+    "case": {
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "spacing": {
+      "5": {
+        "value": 5,
+        "type": "spacing"
+      },
+      "10": {
+        "value": 10,
+        "type": "spacing"
+      },
+      "none": {
+        "value": 0,
+        "type": "spacing"
+      }
+    },
+    "height": {
+      "header": {
+        "16": {
+          "desktop": {
+            "value": 24,
+            "type": "lineHeights"
+          }
+        },
+        "40": {
+          "desktop": {
+            "value": 60,
+            "type": "lineHeights"
+          }
+        }
+      }
+    }
   }
 }

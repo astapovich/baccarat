@@ -86,4 +86,19 @@
   --color-border-input-primary-error: linear-gradient(180deg, #ED1A4C 0%, #9E1334 100%);
   --shadow-dropshadow-primary: 0px 2px 0px 0px #12101166;
   --shadow-innershadow-primary: inset 0px -1px 0px 0px #d4bb93;
+  --font-family-primary: Goldman;
+  --font-size-header-16-desktop: 16px;
+  --font-size-header-18-desktop: 18px;
+  --font-size-header-24-desktop: 24px;
+  --font-size-header-40-desktop: 40px;
+  --font-size-body-12-desctop: 12px;
+  --font-size-body-14-desktop: 14px;
+  --font-weight-400: 400;
+  --font-case-uppercase: uppercase;
+  --font-case-none: none;
+  --font-spacing-5: 5px;
+  --font-spacing-10: 10px;
+  --font-spacing-none: 0px;
+  --font-height-header-16-desktop: 24;
+  --font-height-header-40-desktop: 60;
       }
