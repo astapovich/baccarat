@@ -544,13 +544,19 @@
   },
   "font": {
     "family": {
-      "primary": {
+      "goldman": {
         "value": "Goldman",
         "type": "fontFamilies"
       }
     },
     "size": {
       "header": {
+        "14": {
+          "desktop": {
+            "value": 14,
+            "type": "fontSizes"
+          }
+        },
         "16": {
           "desktop": {
             "value": 16,
@@ -589,6 +595,12 @@
             "type": "fontSizes"
           }
         }
+      },
+      "button": {
+        "desctop": {
+          "value": 14,
+          "type": "fontSizes"
+        }
       }
     },
     "weight": {
@@ -607,18 +619,14 @@
         "type": "textCase"
       }
     },
-    "spacing": {
-      "1": {
-        "value": 0,
-        "type": "spacing"
-      },
-      "3": {
-        "value": 3,
-        "type": "spacing"
-      }
-    },
     "lineheight": {
       "header": {
+        "14": {
+          "desktop": {
+            "value": 20,
+            "type": "lineHeights"
+          }
+        },
         "16": {
           "desktop": {
             "value": 24,
@@ -657,7 +665,29 @@
             "type": "lineHeights"
           }
         }
+      },
+      "button": {
+        "desktop": {
+          "value": 18,
+          "type": "lineHeights"
+        }
       }
+    },
+    "spacing": {
+      "1": {
+        "value": 1,
+        "type": "letterSpacing"
+      },
+      "3": {
+        "value": 3,
+        "type": "letterSpacing"
+      }
+    }
+  },
+  "size": {
+    "md": {
+      "value": 12,
+      "type": "sizing"
     }
   }
 }
