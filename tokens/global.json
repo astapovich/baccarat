@@ -683,11 +683,5 @@
         "type": "letterSpacing"
       }
     }
-  },
-  "size": {
-    "md": {
-      "value": 12,
-      "type": "sizing"
-    }
   }
 }
