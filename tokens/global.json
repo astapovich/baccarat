@@ -621,7 +621,7 @@
         "type": "spacing"
       }
     },
-    "height": {
+    "lineheight": {
       "header": {
         "16": {
           "desktop": {
