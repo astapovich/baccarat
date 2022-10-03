@@ -20,10 +20,8 @@ StyleDictionaryPackage.registerTransform({
     },
     transformer: function(prop) {
         // You can also modify the value here if you want to convert pixels to ems
-         if (prop.value === 0) { 
-         return '0';}
-        else {
-        return parseFloat(prop.original.value) + 'px';
+        if (prop.value === 0) {return '0';}
+        else {return parseFloat(prop.original.value) + 'px';
         }
     }
     });
@@ -37,7 +35,8 @@ StyleDictionaryPackage.registerTransform({
   transformer: function(prop) {
     const shadow = Object.values(prop.value);
     const [x, y, blur, spread, color] = shadow.map((s) => s.toString());
-    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
+      if (x === 0) {return `${x} ${y}px ${blur}px ${spread}px ${color}`;}
+      else {return `${x}px ${y}px ${blur}px ${spread}px ${color}`;}
   }
 });
 
