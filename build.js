@@ -48,6 +48,23 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: 'mycolor/css',
+  type: 'value',
+    matcher: function(prop) {
+    return prop.type === "color";
+  },
+  transformer: function(prop) {
+    var color = Color(prop.value);
+      if (color.getAlpha() === 1) {
+          const rgb = color.toRgb();
+          return `rgb(${rgb.r} ${rgb.g} ${rgb.b})`;
+        } else {
+          return color.toRgbString();
+        }
+  }
+});
+
 StyleDictionaryPackage.registerFilter({
   name: 'isAlias',
   matcher: function(prop) {
@@ -84,7 +101,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "shadow/css", "innershadow/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "shadow/css", "innershadow/css", "mycolor/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
