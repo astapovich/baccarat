@@ -70,7 +70,7 @@
   --color-border-button-solid-hover: linear-gradient(90deg, #f1e6d200 0%, #f1e6d2 50%, #f1e6d200 100%);
   --color-border-button-circle-default: linear-gradient(270deg, #2b2a2b 0%, #434343 50%, #2b2a2b 100%);
   --color-border-button-circle-hover: #f1e6d2;
-  --color-border-button-outline-default: linear-gradient(360deg,#f1e6d2 0%, #d4bb93 115%);
+  --color-border-button-outline-default: linear-gradient(180deg,#f1e6d2 0%, #d4bb93 115%);
   --color-border-button-outline-dissabled: #434343;
   --color-border-radio-unchecked-default: #d4bb93;
   --color-border-radio-unchecked-hover: #bb9370;

@@ -445,7 +445,7 @@
         },
         "outline": {
           "default": {
-            "value": "linear-gradient(360deg,#f1e6d2 0%, #d4bb93 115%)",
+            "value": "linear-gradient(180deg,#f1e6d2 0%, #d4bb93 115%)",
             "type": "color"
           },
           "dissabled": {
