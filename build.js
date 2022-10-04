@@ -91,7 +91,7 @@ function getStyleDictionaryConfig(theme) {
             "destination": `${theme}.css`,
             "format": "css/variables",
             "filter": "isAlias",
-            "selector": `.${theme}-theme`
+            "selector": `:root`
           }]
       }
     }
