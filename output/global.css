@@ -60,7 +60,7 @@
   --color-background-slider-handle-pressed: linear-gradient(180deg, #fff7eb 0%, #e7d5b9 100%);
   --color-background-modal-body: linear-gradient(180deg, #121011 40%, #34343433 100%);
   --color-background-modal-header: linear-gradient(360deg, #121011 0%, #343434 100%);
-  --color-background-toast-primary: linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%);
+  --color-background-toast-primary: linear-gradient(90deg, #12101100 0%, #121011 25%, #121011 65%, #12101100 100%);
   --color-background-toast-secondary: linear-gradient(90deg, #12101100 0%, #121011cc 50%, #12101100 100%);
   --color-background-input-primary-default: linear-gradient(360deg, #121011 0%, #343434 100%);
   --color-background-dropdown-primary-default: #343434;

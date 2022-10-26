@@ -388,7 +388,7 @@
       },
       "toast": {
         "primary": {
-          "value": "linear-gradient(90deg, #12101100 0%, #121011cc 25%, #121011cc 65%, #12101100 100%)",
+          "value": "linear-gradient(90deg, #12101100 0%, #121011 25%, #121011 65%, #12101100 100%)",
           "type": "color"
         },
         "secondary": {
